@@ -1,0 +1,27 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#root>div {
+  width: 30vw;
+  height: 30vh;
+  text-align: center;
+}
+
+.blue {
+  color: skyblue;
+}
+
+.bold {
+  font-weight: bold;
+}
